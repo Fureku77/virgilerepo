@@ -65,7 +65,7 @@ Localiser la clé publique (par défaut : C:\Users\<username>\.ssh\) et copier l
 
 Aller sur github dans les paramètres du compte (icône du compte en haut à droite de l'écran d'accueil >> settings >> SSH and GPG keys >> New SSH Key) et ajouter la clé nouvellement créée et copiée.
 
-## Exercice 
+## Exercice 1
 
 Dans votre branche main :
 
@@ -89,3 +89,16 @@ Dans la branche main :
 Dans l'autre branche :
 
 1. Vous appliquerez les changements contenus dans le stash via la commande `git stash apply`.
+
+
+## Exercice 2
+
+(travail en binôme)
+
+1. L'un des deux membres du binôme (OWNER) donne accès à l'autre à son dépôt distant (Settings > Collaborators > Add new collaborator).
+
+2. L'autre (COLLABORATOR) va cloner le projet du premier sur son Bureau (NE PAS créer un dossier manuellement, l'opération est automatique !).
+
+3. Maintenant, COLLABORATOR et OWNER vont tous deux travailler sur le même dépôt, envoyer leurs modifications dans le dépôt distant, sur la même branche ou sur des branches séparées, et récupérer à intervalle régulier les changements effectués existants dans le dépôt distant.
+
+Le but de cet exercice est de simuler un travail en groupe. Evitez donc, si vous souhaitez ajouter un peu de réalisme, de communiquer quant à vos push et pull respectifs. :')

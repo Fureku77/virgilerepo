@@ -97,7 +97,7 @@ Dans l'autre branche :
 
 1. L'un des deux membres du binôme (OWNER) donne accès à l'autre à son dépôt distant (Settings > Collaborators > Add new collaborator).
 
-2. L'autre (COLLABORATOR) va cloner le projet du premier sur son Bureau (NE PAS créer un dossier manuellement, l'opération est automatique !).
+2. L'autre (COLLABORATOR) va cloner le projet du premier sur son Bureau (NE PAS créer un dossier manuellement, l'opération est automatique !) avec la commande `git clone <url> [<nom dossier>]`
 
 3. Maintenant, COLLABORATOR et OWNER vont tous deux travailler sur le même dépôt, envoyer leurs modifications dans le dépôt distant, sur la même branche ou sur des branches séparées, et récupérer à intervalle régulier les changements effectués existants dans le dépôt distant.
 

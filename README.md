@@ -16,9 +16,9 @@
 
 ###### Le plus petit (h6)
 
-_Je suis un super paragraphe en italique_\
+_Je suis un super paragraphe en italique_
 
-_avec retour à la ligne_\
+_avec retour à la ligne_
 
 **Je suis un paragraphe en gras.**
 | Syntax    | Description |
@@ -30,7 +30,7 @@ _avec retour à la ligne_\
 ## Résumé matinée
 
 | commande | option | Fonction |
-| :------ | :-----: | :------: |
+| :------: | :-----: | :------: |
 | git init | | Initialiser un projet Git |
 | git config user.email | | Définir l'e-mail de l'utilisateur courant pour Git |
 | git config user.name | | Définir le nom de l'utilisateur courant pour Git |
